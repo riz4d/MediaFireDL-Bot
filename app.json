@@ -1,0 +1,27 @@
+{
+    "name": "mediafireDL-Bot",
+    "description": "mediafireDL-Bot - developed by rizad",
+    "keywords": ["MediaFireDL-Bot],
+    "repository": "https://github.com/riz4d/MediaFireDL-Bot",
+    "env": {
+        "API_ID": {
+            "description": "Your Telegram API_ID from @telexorg_bot",
+            "required": true
+        },
+        "API_HASH": {
+            "description": "Your Telegram API_HASH from @telexorg_bot",
+            "required": true
+        },
+        "BOT_TOKEN": {
+            "description": "Your Telegram Bot Token from @BotFather",
+            "required": true
+        },
+       "API_KEY": {
+            "description": "API-KEY gets from https://api.xteam.xyz/",
+            "required": true
+        }
+    },
+    "buildpacks": [{
+      "url": "heroku/python"
+      }]
+  }
