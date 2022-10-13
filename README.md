@@ -4,7 +4,13 @@ a telegram bot, Which helps you to download mediafire files through telegram
 
 ### FEATURES
  - downloads mediafire files
-
+### API
+<table>
+<tr><td align="left" width="160px"><h6>API</h6></td><td align="left" width="250px"><h6>Authentication</h6></td></tr>
+<tr><td align="left">https://api.xteam.xyz/</td><td align="left">required</td></tr>
+ </table>
+ 
+ 
  ### variables
  
  ##### Fork this Repository and Open Config.py edit the values shown below:
